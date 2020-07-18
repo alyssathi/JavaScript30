@@ -8,18 +8,26 @@ body,html {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  background-color: #E1D0BD;
+}
+
+h1{
+  text-align: center;
+  color: #C85646;
+  font-size: 4rem;
+  height: 20vh;
 }
 
 .keys {
   display: flex;
   flex: 1;
-  min-height: 100vh;
+  min-height: 30vh;
   align-items: center;
   justify-content: center;
 }
 
 .key {
-  border: .4rem solid black;
+  border: .4rem solid #37405B;
   border-radius: .5rem;
   margin: 1rem;
   font-size: 1.5rem;
@@ -28,14 +36,15 @@ body,html {
   width: 10rem;
   text-align: center;
   color: white;
-  background: rgba(0,0,0,0.4);
+  background: #37405bd8;
   text-shadow: 0 0 .5rem black;
 }
 
 .playing {
   transform: scale(1.1);
-  border-color: #ffc600;
-  box-shadow: 0 0 1rem #ffc600;
+  border-color: #D6B683;
+  box-shadow: 0 0 1rem #D6B683;
+  background-color: #d6b683b0;
 }
 
 kbd {
